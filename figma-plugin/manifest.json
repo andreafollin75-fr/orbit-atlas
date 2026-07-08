@@ -1,12 +1,12 @@
 {
-    "name": "Orbit Atlas Sync",
-    "id": "orbit-atlas-sync",
-    "api": "1.0.0",
-    "main": "code.js",
-    "ui": "ui.html",
-    "editorType": ["figma"],
-    "networkAccess": {
-          "allowedDomains": ["https://dashboards-alpha-beige.vercel.app", "http://localhost:3000"],
-          "reasoning": "Needed to fetch generated carousel content (texts and image URLs) from the Orbit Atlas API and to notify it when the user validates the Figma edits."
-    }
+        "name": "Orbit Atlas Sync",
+        "id": "orbit-atlas-sync",
+        "api": "1.0.0",
+        "main": "code.js",
+        "ui": "ui.html",
+        "editorType": ["figma"],
+        "networkAccess": {
+                    "allowedDomains": ["https://orbit-atlas-eight.vercel.app", "http://localhost:3000"],
+                    "reasoning": "Needed to fetch generated carousel content (texts and image URLs) from the Orbit Atlas API and to notify it when the user validates the Figma edits."
+        }
 }
