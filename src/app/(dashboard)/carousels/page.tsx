@@ -137,8 +137,7 @@ export default function CarouselsPage() {
       <h1 className="text-2xl font-semibold text-[#1c1a17]">Carousels Figma</h1>
 
       <a href="/carousels/ai" className="inline-block text-sm underline text-[#1c1a17]">Nouveau: generer un carrousel avec l'IA (nodes 1-7) &rarr;</a>
-    </a>
-
+    
       {error && <div className="text-sm text-red-600">{error}</div>}
 
       <section className="space-y-3">
