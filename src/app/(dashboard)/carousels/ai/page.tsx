@@ -355,8 +355,7 @@ return (
     </button>
     </section>
   )}
-  </div>
-
+  
   {workflow && workflow.status === "SCRAPING" && (
   <section className="space-y-3 border-t pt-6">
   <p className="text-sm text-[#857f74]">Recherche des sources en cours...</p>
